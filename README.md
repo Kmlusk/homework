@@ -1,2 +1,1 @@
 # homework
-print('hello world')
