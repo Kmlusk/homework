@@ -1,0 +1,5 @@
+Aug 07, 2023, 17:49:06
+alias ls="ls -F"
+alias ll="ls -l"
+alias ..="cd .."
+alias rm="rm -i"
