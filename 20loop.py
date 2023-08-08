@@ -5,6 +5,9 @@
 # Hint: use the 3 argument form of range()
 
 # Your code goes here
+list = list(range(50))
+list[5::7]
+print(list)
 
 """
 python3 20loop.py
