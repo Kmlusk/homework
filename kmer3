@@ -1,0 +1,17 @@
+sequence = 'ATAAGCGAATATCTCTCATGAGAGGGAA'
+
+def FrequencyMap(text, k):
+	freq= {}
+	n = len(text)
+	for i in range(n-k+1):
+			pattern = text[i:i+k]
+			freq[pattern]=0
+			for i in range(n-k+1):
+				if text[i:i+k] == pattern:
+					freq[pattern] = freq[pattern]+1
+	return freq
+	
+test input: 3
+text = 'ATAAGCGAATATCTCTCATGAGAGGGAA'
+
+
